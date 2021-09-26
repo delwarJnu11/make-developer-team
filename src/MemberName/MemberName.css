@@ -1,7 +1,7 @@
 .member-name{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    place-items: center;
     background-color: rgba(10, 166, 187, 0.507);
     font-size: 18px;
     font-weight: 500;
