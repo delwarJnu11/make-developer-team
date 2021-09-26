@@ -60,3 +60,10 @@ h2,h4{
 .skillsBtn{
     background-color: teal;
 }
+
+@media only screen and (max-width: 668px){
+    .teamMember img{
+        width: 100%;
+        height: 300px;
+    }
+}

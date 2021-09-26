@@ -10,7 +10,7 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
 }
-@media  only screen and (max-with:668px){
+@media only screen and (max-width: 668px){
     .container{
         display: grid;
         grid-template-columns: 1fr;

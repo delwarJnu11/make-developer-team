@@ -17,7 +17,7 @@ const AddTeamMember = (props) => {
             {/* member name show part here  */}
             <ul className="list-container">
                 {
-                    addMember.map(singleMember => <li>{singleMember.name}</li>)
+                    addMember.map(singleMember => <li key={singleMember.id}>{singleMember.name}</li>)
                 }
             </ul>
         </div>
