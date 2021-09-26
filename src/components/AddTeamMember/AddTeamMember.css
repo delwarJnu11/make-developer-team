@@ -2,14 +2,3 @@
     margin-left: 10px;
     text-align: center;
 }
-
-.list-container li{
-    background-color: rgba(10, 166, 187, 0.507);
-    font-size: 18px;
-    font-weight: 500;
-    list-style: none;
-    padding: 10px;
-    margin: 5px 0;
-    border: 1px solid teal;
-    border-radius: 5px;
-}

@@ -2,6 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faCheckCircle } from '@fortawesome/free-solid-svg-icons';
 import './AddTeamMember.css';
+import MemberName from '../../MemberName/MemberName';
 
 //add member and total expense component
 
@@ -17,7 +18,10 @@ const AddTeamMember = (props) => {
             {/* member name show part here  */}
             <ul className="list-container">
                 {
-                    addMember.map(singleMember => <li key={singleMember.id}>{singleMember.name}</li>)
+                    addMember.map(singleMember => <MemberName
+                        addMember={singleMember}
+                        key={singleMember.id}
+                    ></MemberName>)
                 }
             </ul>
         </div>
