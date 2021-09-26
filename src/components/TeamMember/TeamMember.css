@@ -1,0 +1,61 @@
+h2,h4{
+    margin: 0;
+}
+.teamMember{
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+.teamMember img{
+    width: 300px;
+    height: 300px;
+    
+}
+.teamMemberDetails{
+    background-color: rgba(69, 170, 184, 0.507);
+    text-align: center;
+    padding: 10px;
+    margin-top: -4px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.memberName{
+    margin-bottom: 5px;
+}
+.teamMemberDetails p small{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #202020;
+}
+.salary{
+    margin: 10px 0;
+}
+.social-icon{
+    color: #fff;
+    margin: 5px;
+    padding: 5px;
+    font-size: 22px;
+    cursor: pointer;
+}
+.social-icon:hover{
+    color: #1297E0;
+}
+.btn{
+    color: rgb(218, 214, 214);
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 7px 15px;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #1297E0;
+}
+.hireMeBtn{
+    background-color: #055f91;
+}
+.skillsBtn{
+    background-color: teal;
+}

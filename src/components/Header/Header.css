@@ -1,0 +1,24 @@
+h2,p{
+    margin: 0px;
+}
+.header{
+    background-color: #055f91;
+    text-align: center;
+    color: rgb(221, 212, 212);
+    padding: 15px 0;
+}
+.main-title{
+    font-size: 28px;
+    font-weight: 700;
+}
+.header-des{
+    margin: 10px 0;
+    font-size: 16px;
+}
+.total-expense{
+    font-size: 28px;
+    font-weight: 700;
+}
+.balance{
+    font-weight: bold;
+}
