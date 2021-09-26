@@ -1,6 +1,6 @@
 # Getting Started with Make a Developer Team   
 
-Live Website Link :  [https://make-developer-team.netlify.app/](https://make-developer-team.netlify.app/).
+Live Website Link :  [https://make-developer-team.netlify.app/](https://make-developer-team.netlify.app/)
 
 ## About This Website
 ***
