@@ -1,7 +1,9 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faCheckCircle } from '@fortawesome/free-solid-svg-icons';
-import './AddTeamMember.css'
+import './AddTeamMember.css';
+
+//add member and total expense component
 
 const AddTeamMember = (props) => {
     const { addMember } = props;
@@ -12,6 +14,7 @@ const AddTeamMember = (props) => {
             <h3>Total Expense: ${totalExpense}</h3>
             <hr />
             <h2> <small><FontAwesomeIcon icon={faCheckCircle} /> Selected Developers</small> </h2>
+            {/* member name show part here  */}
             <ul className="list-container">
                 {
                     addMember.map(singleMember => <li>{singleMember.name}</li>)

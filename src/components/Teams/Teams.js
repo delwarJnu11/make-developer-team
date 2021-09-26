@@ -1,25 +1,28 @@
 import React, { useEffect, useState } from 'react';
 import AddTeamMember from '../AddTeamMember/AddTeamMember';
 import TeamMember from '../TeamMember/TeamMember';
-import './Teams.css'
-
+import './Teams.css';
+//Teams container  component
 const Teams = () => {
+    //declare state
     const [teams, setTeams] = useState([]);
     const [addMember, setAddMember] = useState([]);
-
+    //fetch data using useEffect
     useEffect(() => {
         fetch('./teams.JSON')
             .then(res => res.json())
             .then(data => setTeams(data));
     }, []);
-
+    // Hire me Btn handler
     const handleHireMe = teamMember => {
-        const addNewMember = [...addMember, teamMember];
+        const addNewMember = [...addMember, teamMember]
         setAddMember(addNewMember);
+
 
     }
     return (
         <div className="container">
+            {/* team member area */}
             <div className="team-members">
                 {
                     teams.map(teamMember => <TeamMember
@@ -31,6 +34,7 @@ const Teams = () => {
                     </TeamMember>)
                 }
             </div>
+            {/* team added area */}
             <div className="team-members-calculation">
                 {
                     <AddTeamMember addMember={addMember}></AddTeamMember>

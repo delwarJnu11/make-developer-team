@@ -2,7 +2,9 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookSquare, faGithub, faLinkedin, faTwitterSquare } from "@fortawesome/free-brands-svg-icons";
 import { faHandPointRight, faCode } from '@fortawesome/free-solid-svg-icons';
-import './TeamMember.css'
+import './TeamMember.css';
+
+//single member component
 
 const TeamMember = (props) => {
     const { image, name, Country, salary, designation, institute } = props.teamMember;
