@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Getting Started with Make a Developer Team   
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://make-developer-team.netlify.app/).
 
 ## Available Scripts
 
