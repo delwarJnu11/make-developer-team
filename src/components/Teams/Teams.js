@@ -15,8 +15,10 @@ const Teams = () => {
     }, []);
     // Hire me Btn handler
     const handleHireMe = teamMember => {
-        const addNewMember = [...addMember, teamMember]
-        setAddMember(addNewMember);
+        if (addMember.indexOf(teamMember) === -1) {
+            const addNewMember = [...addMember, teamMember]
+            setAddMember(addNewMember);
+        }
 
 
     }
